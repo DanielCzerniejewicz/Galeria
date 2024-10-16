@@ -3,7 +3,7 @@ let index = 0;
 
 function rysowanie() {
     let zdjecie = document.getElementById("galeria");
-    zdjecie.innerHTML = `<img src="${tab[index]}.png" alt="Zdjęcie ${index + 1}" style="width: 100%; height: 100%; object-fit: cover;">`;
+    zdjecie.innerHTML = `<img src="${tab[index]}.png" alt="Zdjęcie ${index + 1}" style="width: 200%; height: 200%; object-fit: cover;">`;
 }
 
 
